@@ -29,7 +29,7 @@ namespace StarChart.Controllers
             }
             else
             {
-                return NotFound();
+                return new NotFoundResult();
             }
         }
     }
